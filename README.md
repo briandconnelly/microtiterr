@@ -4,7 +4,26 @@
 
 ## Overview
 
-The goal of microtiterr is to ...
+microtiterr provides some tools that make working with microtiter plate data a bit easier.
+This includes translating rows and columns, making data frames, and more.
+
+### List of Functions
+
+- `is.well` - Determine if the given label (e.g., "A4") is a valid well label
+- `microtiter_data_frame` - Create a data frame to represent microtiter plate data with a row for each well
+- `microtiter_tibble` - Create a [tibble](https://cran.r-project.org/web/packages/tibble/index.html) to represent microtiter plate data with a row for each well
+- `row_letters` - Get the letter associated with the given row number(s)
+- `well_column` - Get the column number from the given well label
+- `well_label` - Get the label (e.g., "A4") associated with the given row and column number
+- `well_row` - Get the row number from the given well label
+
+Most functions will work with more than one input value. For example:
+
+```r
+    well_column(c("A4", "B5", "D7"))
+```
+
+will return 4, 5, 7.
 
 
 ## Installation
@@ -14,15 +33,6 @@ microtiterr is not quite ready to be available on [CRAN](http://cran.r-project.o
 ```r                                                                           
     if(!require("devtools")) install.packages("devtools")
     devtools::install_github("briandconnelly/microtiterr")
-```
-
-
-## Example
-
-TODO
-
-```R
-...
 ```
 
 

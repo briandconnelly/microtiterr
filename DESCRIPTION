@@ -4,8 +4,9 @@ Title: Tools for working with microtiter plates
 Version: 0.1.0
 Authors@R: c(person(given = "Brian", family = "Connelly", email = "bdc@bconnelly.net",
                     role = c("aut", "cre")))
-Description: microtiterr is a set of toolsto assist in working with data from
-    microtiter plates in R.
+Description: microtiterr provides some tools that make working with microtiter
+    plate data a bit easier. This includes translating rows and columns,
+    making data frames, and more.
 License: BSD_2_clause + file LICENSE
 URL: https://github.com/briandconnelly/microtiterr                                
 BugReports: https://github.com/briandconnelly/microtiterr/issues
@@ -13,5 +14,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Imports: stringi
-Suggests: tidyverse,
-    testthat
+Suggests: testthat,
+    tibble,
+    tidyverse

@@ -1,6 +1,7 @@
 #' Get a Well Label for the Given Row and Column
 #'
-#' TODO
+#' \code{well_label} returns a well label (e.g., "A4") for a given row and
+#' column on a microtiter plate.
 #'
 #' @param row Numeric row index(es)
 #' @param column Numeric column index(es)

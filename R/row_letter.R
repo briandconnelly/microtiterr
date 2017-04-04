@@ -1,4 +1,4 @@
-#' Get the letters associated with the given row number(s)
+#' Get the letter associated with the given row number(s)
 #'
 #' TODO
 #'
@@ -9,9 +9,9 @@
 #' @export
 #'
 #' @examples
-#' row_letters(3)
+#' row_letter(3)
 #'
-row_letters <- function(rownum) {
+row_letter <- function(rownum) {
     stopifnot(rownum > 0)
     LETTERS[rownum]
 }

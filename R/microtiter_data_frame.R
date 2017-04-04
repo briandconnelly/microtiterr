@@ -23,7 +23,7 @@ microtiter_data_frame <- function(nwells = 96, include_well = TRUE) {
     #else if (nwells == 1536) d <- expand.grid(Row = 1:32, Column = 1:48)
     else stop(sprintf("Format '%d' is not supported", format))
 
-    d <- d[order(d[,1]),]
+    d <- d[order(d[, 1]), ]
 
     if (include_well) {
         d$Well <- well_label(d$Row, d$Column)

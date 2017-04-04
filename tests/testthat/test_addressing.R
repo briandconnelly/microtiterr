@@ -1,8 +1,10 @@
 context("Plate Addressing")
 
-test_that("row_letters works correctly", {
-    expect_equal(row_letters(1), "A")
-    expect_equal(row_letters(c(1, 2, 3)), c("A", "B", "C"))
+test_that("row_letter works correctly", {
+    expect_equal(row_letter(1), "A")
+    expect_equal(row_letter(c(1, 2, 3)), c("A", "B", "C"))
+    expect_error(row_letter(0))
+    expect_error(row_letter(-3))
 })
 
 test_that("well_row works correctly", {
@@ -22,7 +24,10 @@ test_that("well_column works correctly", {
 test_that("well_label works correctly", {
     expect_equal(well_label(1, 6), "A6")
     expect_equal(well_label(3, 2), "C2")
-    expect_equal(well_label(1:8, 4), c("A4", "B4", "C4", "D4", "E4", "F4", "G4", "H4"))
+    expect_equal(
+        well_label(1:8, 4),
+        c("A4", "B4", "C4", "D4", "E4", "F4", "G4", "H4")
+    )
     expect_error(well_label(0, 1))
     expect_error(well_label(1, 0))
     expect_error(well_label(0, 0))

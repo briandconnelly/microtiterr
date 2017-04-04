@@ -15,7 +15,8 @@ well_label(row, column)
 String containing the corresponding Well Label
 }
 \description{
-TODO
+\code{well_label} returns a well label (e.g., "A4") for a given row and
+column on a microtiter plate.
 }
 \examples{
 well_label(1, 5)

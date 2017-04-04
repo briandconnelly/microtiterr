@@ -3,7 +3,7 @@
 export(is.well)
 export(microtiter_data_frame)
 export(microtiter_tibble)
-export(row_letters)
+export(row_letter)
 export(well_column)
 export(well_label)
 export(well_row)
