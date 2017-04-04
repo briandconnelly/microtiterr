@@ -9,7 +9,12 @@ The goal of microtiterr is to ...
 
 ## Installation
 
-TODO
+microtiterr is not quite ready to be available on [CRAN](http://cran.r-project.org), but you can use [devtools](http://cran.r-project.org/web/packages/devtools/index.html) to install the current development version:
+                                                                                
+```r                                                                           
+    if(!require("devtools")) install.packages("devtools")
+    devtools::install_github("briandconnelly/microtiterr", build_vignettes = TRUE)
+```
 
 
 ## Example

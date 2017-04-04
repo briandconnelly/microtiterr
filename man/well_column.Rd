@@ -15,6 +15,9 @@ Integer value for the corresponding column
 \description{
 TODO
 }
+\note{
+This currently does not fully support 1536-well plates
+}
 \examples{
 well_column("C6")
 

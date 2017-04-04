@@ -15,6 +15,9 @@ A character containing the row letter
 \description{
 TODO
 }
+\note{
+This currently does not fully support 1536-well plates
+}
 \examples{
 row_letters(3)
 

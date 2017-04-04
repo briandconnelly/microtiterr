@@ -2,7 +2,7 @@ Package: microtiterr
 Type: Package
 Title: Tools for working with microtiter plates
 Version: 0.1.0
-Authors@R: c(person(family = "Connelly", given = "Brian", email = "bdc@bconnelly.net",
+Authors@R: c(person(given = "Brian", family = "Connelly", email = "bdc@bconnelly.net",
                     role = c("aut", "cre")))
 Description: microtiterr is a set of toolsto assist in working with data from
     microtiter plates in R.
@@ -12,5 +12,6 @@ BugReports: https://github.com/briandconnelly/microtiterr/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Imports: stringi
 Suggests: tidyverse,
     testthat

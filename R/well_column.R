@@ -5,6 +5,7 @@
 #' @param well A well label (e.g., "A4")
 #'
 #' @return Integer value for the corresponding column
+#' @note This currently does not fully support 1536-well plates
 #' @export
 #' @seealso \code{\link{well_row}}
 #'
