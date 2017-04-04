@@ -1,6 +1,7 @@
 # microtiterr
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/microtiterr)](https://cran.r-project.org/package=microtiterr)
+[![Travis-CI Build Status](https://travis-ci.org/briandconnelly/microtiterr.svg?branch=master)](https://travis-ci.org/briandconnelly/microtiterr)
 
 ## Overview
 
