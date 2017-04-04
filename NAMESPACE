@@ -3,4 +3,5 @@
 export(is.well)
 export(row_letters)
 export(well_column)
+export(well_label)
 export(well_row)
