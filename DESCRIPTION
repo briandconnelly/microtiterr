@@ -1,0 +1,16 @@
+Package: microtiterr
+Type: Package
+Title: Tools for working with microtiter plates
+Version: 0.1.0
+Authors@R: c(person(family = "Connelly", given = "Brian", email = "bdc@bconnelly.net",
+                    role = c("aut", "cre")))
+Description: microtiterr is a set of toolsto assist in working with data from
+    microtiter plates in R.
+License: BSD_2_clause + file LICENSE
+URL: https://github.com/briandconnelly/microtiterr                                
+BugReports: https://github.com/briandconnelly/microtiterr/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: tidyverse,
+    testthat
