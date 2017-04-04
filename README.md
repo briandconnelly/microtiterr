@@ -1,7 +1,9 @@
 # microtiterr
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/microtiterr)](https://cran.r-project.org/package=microtiterr)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![BSD License](https://img.shields.io/badge/license-BSD-brightgreen.svg)](https://opensource.org/licenses/BSD-2-Clause)
 [![Travis-CI Build Status](https://travis-ci.org/briandconnelly/microtiterr.svg?branch=master)](https://travis-ci.org/briandconnelly/microtiterr)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/microtiterr)](https://cran.r-project.org/package=microtiterr)
 
 ## Overview
 
@@ -35,6 +37,13 @@ microtiterr is not quite ready to be available on [CRAN](http://cran.r-project.o
     if(!require("devtools")) install.packages("devtools")
     devtools::install_github("briandconnelly/microtiterr")
 ```
+
+
+## Related Tools
+
+- [plater](https://github.com/ropenscilabs/plater) - Provides a nice interface for importing and combining data as data frames ([CRAN](https://cran.r-project.org/package=plater))
+- [ggplot2bdc](https://github.com/briandconnelly/ggplot2bdc) - Includes a theme for [ggplot2](https://cran.r-project.org/package=ggplot2), [`theme_bdc_microtiter`](https://github.com/briandconnelly/ggplot2bdc#theme_bdc_microtiter), for plotting microtiter plate data.
+
 
 
 ## Code of Conduct
