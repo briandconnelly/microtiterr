@@ -13,5 +13,5 @@
 #' well_column("C6")
 #'
 well_column <- function(well) {
-    as.integer(substr(well, 2, 2))
+    as.integer(substr(well, 2, 4))
 }
