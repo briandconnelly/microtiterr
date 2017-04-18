@@ -1,6 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^CONDUCT\.md$
-^LICENSE\.md$
+^LICENSE\.txt$
 ^NOTES\.md$
 ^\.travis\.yml$
